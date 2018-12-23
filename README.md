@@ -1,2 +1,3 @@
 # preXANES
-Pre-edge analysis of X-ray absorption near-edge spectra
+Pre-edge analysis of X-ray absorption near-edge spectra (XANES)
+This code is intended to be an all-in-one pre-edge XANES analysis code. It manipulates raw XANES files,  coadds, normalizes, fits a step, and fits pre-edge features to Gaussian features. It has been developed for analysis in accordance to analysis first introduced by Notestein et al J. Am. Chem. Soc., 2007, 129 (5), pp 1122–1131. It has only been used here for Ti K-edge spectra, but is intended as a general analysis tool in the future. Two example files are inlcuded as sample raw input files. Code tweaking may be necessary for it to work with input files from raw data from other beamlines.
